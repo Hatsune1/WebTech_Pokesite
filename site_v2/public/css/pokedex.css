@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    background-image: url("./image/pokedex/pokedex_image/pokedex.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.screen{
+    position: fixed;
+    top: 22%;
+    bottom: 22%;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.screen::-webkit-scrollbar {
+    width : 10px;
+    height: 1px;
+}
+.screen::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #535353;
+}
+/* .screen::-webkit-scrollbar-track {
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background   : #daf5fb;
+} */
+
+.starframe{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.svgfig{
+    max-height: 100%;
+}
+
+#polystaron{
+    fill: #f4c116; 
+    stroke: #f4c116;
+    stroke-width: 2.4px;
+    background-color: transparent;
+}
+
+#polystaroff{
+    fill: transparent;
+    stroke: white;
+    stroke-width: 2.4px;
+    background-color: transparent;
+}
+
+
+#pokemonlist{
+    min-width: 250px;
+    max-width: 340px;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+.idw{
+    max-width: 40px;
+}
+
+.namew{
+    width: 80px;
+}
+
+.typew{
+    min-width: 90px;
+    max-width: 180px;
+}
+
+.imgs{
+    width: 100%;
+}
+
+#IDsearch{
+    width: 40px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+#NAMEsearch{
+    width: 80px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+#TYPEsearch{
+    background-color: transparent;
+}
